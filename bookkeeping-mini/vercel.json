@@ -1,0 +1,15 @@
+{
+  "name": "accounting-assistant-frontend",
+  "version": "1.0.0",
+  "build": {
+    "env": {
+      "VITE_API_URL": "@vercel-env-api-url"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
